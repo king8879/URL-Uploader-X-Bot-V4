@@ -5,7 +5,7 @@ from handlers.settings_handler import settings, button_handler
 from handlers.thumbnail import save_thumbnail
 from handlers.rename import handle_rename
 
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+app = ApplicationBuilder().token("8054577554:AAHDFaD-VPMoSnSKST7LjqdsoFnyBHtXDTo").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("settings", settings))
