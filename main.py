@@ -18,7 +18,7 @@ def run():
 
 Thread(target=run).start()
 
-app = ApplicationBuilder().token("8054577554:AAHDFaD-VPMoSnSKST7LjqdsoFnyBHtXDTo").build()
+app = ApplicationBuilder().token("7742796316:AAELKOTlaSavyVcnd39LdMpkNGqdkHfbobE").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("settings", settings))
